@@ -1,0 +1,2 @@
+# Vehicle-Detection-and-Number-Plate-Recognition-System
+ This Project showcases computer vision using OpenCV, number plate recognition using Tesseract OCR, and web development using Flask. The system is capable of detecting vehicles from a a pre-recorded video  (or a live video stream), extracting the vehicle's number plates, counting the number of vehicles, and displaying real-time data on a webpage.
