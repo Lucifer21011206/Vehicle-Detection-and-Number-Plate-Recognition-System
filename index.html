@@ -4,16 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Vehicle Tracking</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Vehicle Count: {{ vehicle_data.count }}</h1>
-    <h2>Number Plates:</h2>
-    <ul>
-        {% for plate in vehicle_data.plates %}
-        <li>{{ plate }}</li>
-        {% endfor %}
-    </ul>
+    <div class="vehicle">
+        <h1>Vehicle Count: {{ vehicle_data.count }}</h1>
+        <h2>Number Plates:</h2>
+        <ul>
+            {% for plate in vehicle_data.plates %}
+            <li>{{ plate }}</li>
+            {% endfor %}
+        </ul>
+    </div>
 </body>
 
 </html>
