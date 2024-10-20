@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: dashed;
+  position: relative;
+  margin-top: 20px;
+  background-color: aquamarine;
+}
+
+.vehicle {
+  margin-left: 60px;
+  margin-right: 60px;
+  text-shadow: 10cm;
+  margin-bottom: 10px;
+  perspective-origin: 10%;
+  border: 10px solid grey;
+  border-radius: 15px 15px 15px 15px;
+}
