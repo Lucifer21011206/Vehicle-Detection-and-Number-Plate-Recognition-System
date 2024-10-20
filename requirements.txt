@@ -1,4 +1,4 @@
-Hello Sir, this file contains all the necessary libraries that are being used in the project.
+Hello Sir/Ma'am, this file contains all the necessary libraries that are being used in the project.
 
 1. OpenCV for video capture and image processing.  
 
