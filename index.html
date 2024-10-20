@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle Tracking</title>
+</head>
+
+<body>
+    <h1>Vehicle Count: {{ vehicle_data.count }}</h1>
+    <h2>Number Plates:</h2>
+    <ul>
+        {% for plate in vehicle_data.plates %}
+        <li>{{ plate }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

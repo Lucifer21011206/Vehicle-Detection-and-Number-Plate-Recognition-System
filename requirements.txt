@@ -1,0 +1,13 @@
+Hello Sir, this file contains all the necessary libraries that are being used in the project.
+
+1. OpenCV for video capture and image processing.  
+
+   -> Command for installation = pip install opencv-python
+
+2. Tesseract-OCR for optical character recognition.
+
+   -> Command for installation = pip install pytesseract
+
+3. Flask for creating a web interface.
+
+   -> Command for installation = pip install Flask
