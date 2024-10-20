@@ -81,3 +81,14 @@ Future Enhancements
     OpenCV for providing powerful tools for computer vision tasks.
     Tesseract for its robust OCR capabilities.
     Flask for simplifying the creation of the web interface.
+
+
+
+  Challenges Faced
+
+     During the development of this project, several challenges were encountered:
+
+    
+    Vehicle Overlap Issues: In crowded scenes, multiple vehicles would overlap or cluster together, causing detection models to either miss vehicles or count them twice. To address this, I experimented with different detection thresholds and tweaked the parameters of the Haar Cascade model to better distinguish individual vehicles.
+
+    Integrating with Flask: Combining real-time OpenCV video streaming and Flask’s web framework was initially challenging, especially handling video streams asynchronously with real-time updates to the webpage. I had to use Flask’s background threading to allow video detection to run without blocking the server's main thread, ensuring smooth updates to the web interface.  
